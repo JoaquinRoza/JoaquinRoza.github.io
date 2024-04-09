@@ -1,0 +1,443 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+main .hero {
+  margin: 0 !important;
+  background-color: #e8e1d7;
+  text-decoration: none;
+  font-size: 1.8rem;
+  width: 100% !important;
+  height: 86vh !important;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+.intro {
+  font-size: large !important;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #e8e1d7;
+  color: #84756e !important;
+  text-decoration: none !important;
+}
+
+
+.hero h1 {
+  padding: 0 0 0 0 !important;
+  color: #9b9b9b;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.hero h2 {
+  margin: 0 auto 0 auto !important;
+  font-weight: 350;
+  color: #9b9b9b;
+}
+.hero p {
+  padding: 4vw 0rem 0 0rem !important;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: center;
+  color: gray;
+}
+
+.hero-hr {
+  border: 0 !important;
+  height: 1px !important;
+  width: 12% !important;
+  margin: 1rem auto;
+  color: #9b9b9b;
+  background-image: linear-gradient(to right, rgb(145, 145, 145),  rgb(145, 145, 145), rgb(145, 145, 145)) !important;
+}
+
+.hero .image-h {
+  /* height: 50vh !important; */
+  width: 30vw !important;
+  /* position: absolute;
+  z-index: 1;
+  margin: auto auto 0vw 0vh;
+  */
+  bottom: -30px;
+}
+
+.hero .book-img {
+  width: 26vw;
+}
+main .hero1 {
+  margin: 0 auto !important;
+  background-color: #e8e1d7;
+  text-decoration: none;
+  font-size: 1.8rem;
+  width: 98vw !important;
+  height: 90vh !important;
+}
+.sancor {
+  width: 7vw;
+  /* height: 150px !important; */
+  margin-left: 3px;
+  z-index: 99;
+}
+
+.chapter-img {
+  height: 186px !important;
+  margin: 0px !important;
+}
+
+.chap-hr {
+  border: 0 !important;
+  height: 1px !important;
+  width: 20vw !important;
+  margin: 0 !important;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)) !important;
+}
+
+.chap-s-hr {
+  border: 0 !important;
+  height: 1px !important;
+  width: 10vw !important;
+  margin: 0 !important;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)) !important;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.shadow:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card {
+  flex-wrap: nowrap; 
+}
+
+.chapter-img {
+  max-width: 100%; 
+}
+
+.writers{
+  background-color:#e8e1d7;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  color: #84756e;
+}
+
+.writersbox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2rem;
+  width: 100%;
+  justify-content: center;
+}
+.author{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  max-width: 300px;
+}
+
+.user-image {
+  width: 7rem;
+  height: 7rem;
+  overflow: hidden;
+  -webkit-border-radius: 120px;
+  -moz-border-radius: 120px;
+  border-radius: 120px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  float: left;
+}
+
+.container a {
+  margin: 0;
+  text-decoration: none;
+  color: #84756e;
+}
+
+.chapters_title-c{
+  padding: 1rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.download{
+  border:#84756ecc solid 4px;
+  padding: 3px 5px;
+}
+.download a{
+  color: #84756e;
+
+}
+.input-c{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: auto;
+  padding: 1rem;
+}
+.input-c input{
+  margin: .5rem 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.container2{
+  width: 100%;
+  margin-top: 6rem;
+  align-items: center;
+  justify-content: center;
+}
+.container2 form{
+ width: 80%;
+ display: flex;
+ flex-direction: column;
+}
+
+.form-b-c {
+  display: flex;
+  justify-content: center;
+}
+
+.container2-child{
+  display: flex;
+  align-items: center;
+}
+
+.container2-child2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-book2 {
+  width: 30rem;
+}
+
+.btn-submit{
+    background-color: transparent;
+    border:#84756e solid 1px;
+    padding: 3px 5px;
+    color: #84756e;
+}
+
+.chapt-c-title{
+  display: flex;
+  margin: 4rem;
+  border: solid black 1px;
+  max-width: 60%;
+}
+
+.chapt-c2{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  justify-content: center;
+  
+}
+
+.chapt-c2 h3 {
+padding: 1rem;
+}
+
+.container-chapt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chapt-c-body {
+  display: flex;
+  width: 80%;
+}
+
+.author-biografia {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: max-content;
+}
+
+.chapt-c-data {
+  width: 70%;
+}
+
+.chapt-c-border {
+  padding: 2rem;
+  margin-left: 2rem;
+  border-left: solid 3px #84756e;
+}
+
+.author-biografia img {
+  margin: 0 0 2rem 0;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.container-main {
+  display: flex;
+}
+
+.container-main > div {
+  flex: 1;
+}
+
+.chart {
+  color: #84756e;
+  font-size: large;
+}
+
+.chart-name {
+  color: #0b420b;
+  font-size: large;
+}
+
+.chart-bio {
+  color: #84756e;
+  font-size: smaller;
+}
+
+.chart-i {
+  display: flex;
+  align-items: center;
+}
+
+.diccionario {
+  color: #000000;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 10pt;
+  font-family: "Calibri";
+}
+
+.footer {
+padding-left: 10%;
+width: 100%;
+display: flex;
+justify-content: space-between;
+  
+}
+
+.page {
+  border: #84756e solid 1px;
+  color: #84756e;
+  background-color: #84756e50;
+}
+
+@media (1000px <= width <= 1300px) {
+.intro {
+  font-size: small !important;
+}
+}
+
+@media (100px <= width <= 1200px) {
+  
+  html {
+    font-size: medium ;
+    width: 100vw;
+  }
+
+  .intro-dest {
+    display: none;
+  }
+  
+  .navbar {
+    width: 100%;
+    background-color: #e8e1d7;
+    color: #84756e !important;
+    text-decoration: none !important;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+  }
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .sancor {
+    display: hidden;
+    width: 6rem;
+    margin-right:1rem ;
+  }
+
+  .intro {
+    display: flex;
+    justify-content: start;
+    text-align: start !important;
+    font-size: 12px !important;
+  }
+
+
+
+  .container-main {
+    z-index: 99999;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+  }
+
+  .container-i-b {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: 30rem !important;
+  }
+  .container-i-b img {
+    width: 3rem;
+  }
+  
+  .img-book2 {
+    display: none;
+  }
+
+   .hero .image-h{
+    /* display: none; */
+    position: absolute;
+    width: 12rem !important;
+    left: 0px;
+    top: 250px;
+  }
+
+  .book-img {
+    /* display: none; */
+    right: 10px;
+    z-index: 0;
+    width: 10rem !important;
+  }
+
+  .form-b-c {
+    margin-bottom: 2rem;
+  }
+
+  main .hero {
+    height: 90vh !important;
+  }
+}
+
+@media (width > 1200px) {
+  .intro-movile {
+    display: none;
+  }
+}
