@@ -317,12 +317,16 @@
             </div>
           </form>
         </div>
-       <script>
+        <script>
           function descargarPDFYEnviarFormulario() {
-            let form = document.getElementById('form')
+            EnviarFormulario();
+            descargarPDF();
+          }
+          function EnviarFormulario() {
             if (!form.checkValidity()) {
               return;
             }
+            let form = document.getElementById('form')
             fetch('https://54f3930c.sibforms.com/serve/MUIFACKiTJdRQd1IXe3apIlWAHJYi4jWZbFk8l1TX8861Np6EodGXNucwgEPjMB1LR4CUfL3QrUTd1fNTRpI-tJt6OETWB-erc_UESFnZVVl3DcT_BK5OdfOqTySMNzTSzta079c3dI6dB9imR3Zy1D7Nlm1bAjcQcR84eNBs8GRLun2otBvLcQ87WRsTu8ZFRVibNGQkkRZp_rU', {
               method: 'POST',
               body: new FormData(document.getElementById('form'))
@@ -333,13 +337,18 @@
               .catch(error => {
                 console.error('Error al enviar el formulario:', error);
               });
+            }
+            function descargarPDF() {
+            if (!form.checkValidity()) {
+              return;
+            }
             let a = document.createElement('a');
             a.href = "public/book/book.pdf";
             a.download = 'DesafiandoElCambioClimatico.pdf';
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
-          }
+            }
         </script>
         <div>
           <img class="img-book2" src="public/images/book2.png" alt="" />
