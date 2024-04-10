@@ -62,17 +62,12 @@ header {
 }
 
 .hero .image-h {
-  /* height: 50vh !important; */
-  width: 30vw !important;
-  /* position: absolute;
-  z-index: 1;
-  margin: auto auto 0vw 0vh;
-  */
+  width: 28vw !important;
   bottom: -30px;
 }
 
 .hero .book-img {
-  width: 26vw;
+  width: 25vw;
 }
 main .hero1 {
   margin: 0 auto !important;
@@ -343,9 +338,23 @@ justify-content: space-between;
   background-color: #84756e50;
 }
 
+@media (1100px <= width <= 1600px) {
+  .intro {
+    font-size: medium !important;
+  }
+  }
+
 @media (1000px <= width <= 1300px) {
 .intro {
   font-size: small !important;
+}
+.hero .image-h {
+  width: 27vw !important;
+  bottom: -30px;
+}
+
+.hero .book-img {
+  width: 24vw;
 }
 }
 
