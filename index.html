@@ -317,7 +317,7 @@
             </div>
           </form>
         </div>
-        <script>
+       <script>
           function descargarPDFYEnviarFormulario() {
             let form = document.getElementById('form')
             if (!form.checkValidity()) {
@@ -328,17 +328,17 @@
               body: new FormData(document.getElementById('form'))
             })
               .then(response => {
-                let a = document.createElement('a');
-                a.href = "public/book/book.pdf";
-                a.download = 'DesafiandoElCambioClimatico.pdf';
-                document.body.appendChild(a);
-                a.click();
-                document.body.removeChild(a);
                 console.log('Formulario enviado con éxito');
               })
               .catch(error => {
                 console.error('Error al enviar el formulario:', error);
               });
+            let a = document.createElement('a');
+            a.href = "public/book/book.pdf";
+            a.download = 'DesafiandoElCambioClimatico.pdf';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
           }
         </script>
         <div>
