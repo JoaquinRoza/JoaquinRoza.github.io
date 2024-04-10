@@ -319,17 +319,17 @@
         </div>
         <script>
           function descargarPDFYEnviarFormulario() {
-            EnviarFormulario();
+            enviarFormulario();
             descargarPDF();
           }
-          function EnviarFormulario() {
+          function enviarFormulario() {
+            let form = document.getElementById('form')
             if (!form.checkValidity()) {
               return;
             }
-            let form = document.getElementById('form')
             fetch('https://54f3930c.sibforms.com/serve/MUIFACKiTJdRQd1IXe3apIlWAHJYi4jWZbFk8l1TX8861Np6EodGXNucwgEPjMB1LR4CUfL3QrUTd1fNTRpI-tJt6OETWB-erc_UESFnZVVl3DcT_BK5OdfOqTySMNzTSzta079c3dI6dB9imR3Zy1D7Nlm1bAjcQcR84eNBs8GRLun2otBvLcQ87WRsTu8ZFRVibNGQkkRZp_rU', {
               method: 'POST',
-              body: new FormData(document.getElementById('form'))
+              body: new FormData(form)
             })
               .then(response => {
                 console.log('Formulario enviado con éxito');
@@ -339,6 +339,7 @@
               });
             }
             function descargarPDF() {
+            let form = document.getElementById('form')
             if (!form.checkValidity()) {
               return;
             }
