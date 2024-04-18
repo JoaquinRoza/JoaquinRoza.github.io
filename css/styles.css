@@ -8,7 +8,7 @@ main .hero {
   width: 100% !important;
   height: 86vh !important;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 body {
